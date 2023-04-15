@@ -1,0 +1,76 @@
+.content-pane {
+	margin: 10%;
+	margin-top: 4em;
+	
+	/*border: 5px solid green;*/
+
+	padding: 5%;
+	
+	min-height: 100%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-column {
+	float: left;
+	max-width: 25%
+}
+
+.text-column {	
+	float: left;
+	max-width: 72%
+}
+
+.head {
+	text-align: center;
+	font-size: 5ch;
+	margin: 0;
+	padding: 0.5ch;
+	font-family: "Roboto";
+}
+
+.head-shop {
+	font-size: 5ch;
+	margin: 0;
+	padding: 0.5ch;
+	font-family: "Roboto";
+}
+
+.text{
+	font-size: 3ch;
+	margin: 0;
+	padding: 0.5ch;
+	font-family: "Roboto";
+}
+
+.post_scriptum{
+	font-size: 1.5ch;
+	margin: 1ch;
+	font-family: "Roboto";
+}
+
+.centered {
+	text-align: center;
+}
+
+.gray-text {
+	color: gray;
+	font-size: 2ch;
+	font-family: "Roboto";
+}
+
+.gray-head {
+	color: gray;
+	font-size: 5ch;
+	font-family: "Roboto";
+}

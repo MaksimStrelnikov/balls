@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+  <head>
+    <link rel="icon" href="images/icon.png">
+    <link href="styles/style.css" rel="stylesheet" />
+	<link href="styles/button-styles.css" rel="stylesheet" />
+	<link href="styles/navigation-bar.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Магазин</title>
+	<script src="scripts/script.js"></script>
+  </head>
+  <body onload="onLoad()">
+    <nav>
+      <ul>
+        <li><a href="index.html"><img src="images/icon.png" width=25%/></a></li>
+		<li><a href="shop.html" class=active>Магазин</a></li>
+        <li><a href="about.html">Обо мне</a></li>
+	  </ul>
+    </nav>
+	<div class=content-pane>
+	  <div class=row>
+	    <div class=img-column>
+		  <img src="images/1.png" width=100% height=100%/>
+		  <div class=centered>
+		    <p class=text>
+		      Цена: 1500₽
+		    </p>
+		    <button onclick="greenBallAdd()" class=add-button>Добавить в корзину</button>
+		  </div>
+		</div>
+		<div class=text-column>
+		  <p class=head-shop>
+	        <strong>Шар зелёный</strong>
+	      </p>
+		  <p class=text>
+		    Особенность этого шара заключается в его чрезмерной гладкости. Покрывая его разработанными в наших лабораториях маслами, мы обеспечиваем максимально возможную скорость
+		  </p>
+		  <code id="cookies"></code>
+		</div>
+	  </div>
+	  <div class=row>
+	    <div class=img-column>
+		  <img src="images/2.png" width=100% height=100%/>
+		  <div class=centered>
+		    <p class=text>
+		      Цена: 2500₽
+		    </p>
+		    <button onclick="redBallAdd()" class=add-button>Добавить в корзину</button>
+		  </div>
+		</div>
+		<div class=text-column>
+		  <p class=head-shop>
+	        <strong>Шар зелёный</strong>
+	      </p>
+		  <p class=text>
+		    Особенность этого шара заключается в его чрезмерной гладкости. Покрывая его разработанными в наших лабораториях маслами, мы обеспечиваем максимально возможную скорость
+		  </p>
+		  <code id="cookies"></code>
+		</div>
+	  </div>
+	  <div class=row>
+	    <div class=img-column>
+		  <img src="images/3.png" width=100% height=100%/>
+		  <div class=centered>
+		    <p class=text>
+		      Цена: 3700₽
+		    </p>
+		    <button onclick="blueBallAdd()" class=add-button>Добавить в корзину</button>
+		  </div>
+		</div>
+		<div class=text-column>
+		  <p class=head-shop>
+	        <strong>Шар зелёный</strong>
+	      </p>
+		  <p class=text>
+		    Особенность этого шара заключается в его чрезмерной гладкости. Покрывая его разработанными в наших лабораториях маслами, мы обеспечиваем максимально возможную скорость
+		  </p>
+		  <code id="cookies"></code>
+		</div>
+	  </div>
+	  <table style="width:100%; margin-top:2em">
+          <tr>
+            <th style="width:50%">Товар</th>
+            <th style="width:20%">Кол-во</th>
+            <th style="width:30%">Цена</th>
+          </tr>
+          <tr>
+            <td>Зелёный шар</td>
+			<td id="green"></td>
+			<td id="greenPrice"></td>
+          </tr>
+          <tr>
+            <td>Красный шар</td>
+            <td id="red"></td>
+			<td id="redPrice"></td>
+          </tr>
+		  <tr>
+            <td>Синий шар</td>
+            <td id="blue"></td>
+            <td id="bluePrice"></td>
+          </tr>
+      </table>
+	  <table style="width:100%">
+		  <tr>
+            <td style="width:70%">Итог</td>
+            <td id="totalPrice" style="width:30%"></td>
+          </tr>
+      </table>
+	  <div class=centered style="margin-top: 3em">
+	    <button class=offer-button>Оформить заказ</button>
+		<p style="margin-bottom: 0" class=gray-text>К сожалению, в данный момент невозможно совершить заказ из вашей страны.</p>
+		<p style="margin-top: 0" class=gray-text>Приносим извинения за доставленные неудобства</p>
+	  </div>
+	  <div class=centered style="margin-top: 3em">
+	    <p style="margin-bottom: 0" class=gray-text>Если возникли какие-то трудности, ознакомьтесь с возможными решениями, перейдя <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">по этой ссылке</a></p>
+		<p style="margin-top: 0" class=gray-head><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQ</a></p>
+	  </div>
+	</div>
+  </body>
+</html>

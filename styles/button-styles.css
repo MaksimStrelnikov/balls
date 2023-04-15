@@ -1,0 +1,38 @@
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1 em;
+  border: 2px solid #FFFFFF;
+}
+
+.add-button {
+	background-color: #008CBA;
+	font-size: 20px;
+	border-radius: 1em;
+    transition-duration: 0.2s;
+}
+
+.add-button:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #008CBA;
+  color: black;
+}
+
+.add-button:active {
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: white;
+  transition-duration: 0.05s
+}
+
+.offer-button {
+	background-color: gray;
+	font-size: 40px;
+	border-radius: 0.5em;
+}
