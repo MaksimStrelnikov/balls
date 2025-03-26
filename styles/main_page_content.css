@@ -1,7 +1,7 @@
 .begining {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)), url("../images/kombine.jpg");
 	background-repeat: no-repeat, no-repeat;
-	background-size: 100em, 100em;
+	background-size: cover;
 	min-height: 27em;
 	text-align: center;
 	padding-top: 23em;
